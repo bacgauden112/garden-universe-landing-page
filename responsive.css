@@ -8,7 +8,7 @@
   .show-to-1243{
       display: none;
   }
-  
+
 }
 @media(max-width:1243px){
   .block-roadmap__time-line--nodelist{
@@ -28,7 +28,7 @@
       margin-left: 0px;
       margin-right: 0px;
     }
-    
+
   .phase-two{
   /* margin-right: 13px; */
   }
@@ -78,7 +78,7 @@
     .block-game-play__slideshow .boxed
     {
       width: 608px;
-    }      
+    }
     .boxed{
       margin-right: 4px;
       margin-left: 4px;
@@ -103,10 +103,10 @@
       border-radius: 3%;
     }
     .swiper-3d .swiper-slide-shadow-left, .swiper-3d .swiper-slide-shadow-right{
-      left: 0.7% !important; 
+      left: 0.7% !important;
       top: 1% !important;
     }
-    
+
 }
 @media(min-width:1460px){
 
@@ -149,7 +149,7 @@
       width: 248px;
     }
 
-} 
+}
 @media(max-width: 1460px){
 main{
   background-image: url('img/svg/main-1.png');
@@ -174,37 +174,64 @@ main{
       position: absolute;
       top: 40px;
       left: 16px;
-      width: 48px;
-      height: 48px;
+      width: 40px;
+      height: 40px;
       background-image: url("img/Button-text/buttonCircle.png");
+      background-size: cover;
   }
-  /* .toggle-navbar-mobile:hover{
-    background-image: url("img/svg/btn-circle-hover.svg");
+
+  .toggle-navbar-mobile:active {
+    top: 42px;
+    left: 16px;
+    width: 40px;
+    height: 40px;
+    background-image: url("img/Button-text/buttonCircleactive.png");
+    background-size: cover;
 
   }
-  .toggle-navbar-mobile:active{
-    background-image: url("img/svg//btn-circle-active.svg");
-  } */
 
   .toggle-navbar-mobile img{
     position: relative;
-    top:7px;
+    top:3px;
     left: 1px;
     display: block;
-    width: 16px ;
+    width: 13px ;
     height: 13px;
     margin: auto;
     transform: translateY(50%);
   }
 
-
+/* Position the close button (top right corner) */
+.navbar-mobile .closebtn {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-image: url("img/Button-text/buttonCircle.png");
+  background-size: cover;
+}
+.navbar-mobile .closebtn:active {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-image: url("img/Button-text/buttonCircleactive.png");
+  background-size: cover;
+}
+.navbar-mobile .closebtn img{
+  position: relative;
+  top:3px;
+  display: block;
+  width: 13px ;
+  height: 13px;
+  margin: auto;
+  transform: translateY(50%);
+}
   .block-story__content{
       height: 1132px;
       width: 382px;
       background-image: url('./img/svg/paper-long.svg');
       background-repeat: no-repeat;
       background-size: contain;
-      background-position: 50% 50%; 
+      background-position: 50% 50%;
       padding: 58px 34px 76px;
       position: relative;
   }
@@ -216,7 +243,7 @@ main{
       bottom: -85px;
     }
   .block-story__content--tree-top
-  {    
+  {
       position: absolute;
       top: -34px;
       left: -18px;
@@ -248,7 +275,7 @@ main{
       margin-left: 4px;
       padding: 4px;
     }
-    
+
   .block-game-play__content{
       margin-bottom: 26px;
       margin-top: 24px;
@@ -290,7 +317,7 @@ main{
   }
   .feature-card-two .feature-card__img img{
       width: 220px;
-  }    
+  }
   .feature-card-three .feature-card__img img{
       width: 265px;
   }
@@ -318,7 +345,7 @@ main{
 
     .footer{
         flex-direction: column;
-        
+
     }
     .footer__main-img{
       width: 240px;
@@ -339,7 +366,7 @@ main{
       margin-right: 0;
       margin-bottom: 16px;
     }
-    
+
     .footer__text{
       width: 196px;
       margin-bottom: 31px;
@@ -421,21 +448,21 @@ main{
   height: 54px;
   background-size: cover;
   background-image: url('img/Button-text-1/Gameplay_Normal.png');
-}  
+}
 .navbar-mobile-item-text:active .navbar-game-play{
 
   background-image: url('img/Button-text-1/Gameplay_Active.png');
-} 
+}
 .navbar-mobile-item-text .navbar-feature{
   width: 151px;
   height: 54px;
   background-image: url('img/Button-text-1/Features_Normal.png');
   background-size: cover;
 
-}  
+}
 .navbar-mobile-item-text:active .navbar-feature{
   background-image: url('img/Button-text-1/Features_Active.png');
-}  
+}
 .navbar-mobile-item-text .navbar-roadmap{
   width: 183px;
   height: 54px;
@@ -521,17 +548,12 @@ margin-bottom: 32px;
   font-size: 40px;
   padding: 0px;
 }
-.navbar-mobile .closebtn img{
-  width: 40px;
-}
+
 /* .navbar-mobile .closebtn img{
   width: 40px;
 } */
-.closebtn{
-  /* background-image: url("img/svg/btn-circle-normal.svg"); */
-}
 .social-text-mobile{
-  width: 196px !important; 
+  width: 196px !important;
   /* height:52px !important; */
 }
 .navbar-mobile .navbar-story img{
@@ -584,13 +606,13 @@ width: 32px;
   border-radius: 3%;
 }
 .swiper-3d .swiper-slide-shadow-left, .swiper-3d .swiper-slide-shadow-right{
-  left: 0.7% !important; 
+  left: 0.7% !important;
   top: 1% !important;
 }
 
 
 
-} 
+}
 @media (min-width: 768px) and (max-width: 992px) {
   .hide-on-tablet {
       display: none;
@@ -609,7 +631,7 @@ width: 32px;
   }
 
 
-  
+
 }
 @media (max-width: 768px)
 {
@@ -644,7 +666,7 @@ width: 32px;
     height: 33px;
     background-image: url(img/svg/text-roadmap-155-50.png);
 
-}    
+}
 .header__download img,.footer__download img{
   width: 150px;
 }
@@ -746,7 +768,7 @@ display: block;
   position: absolute;
   top: 46%;
   left: 50%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
 }
 .swiper-slide.swiper-slide-visible.swiper-slide-prev,.swiper-slide.swiper-slide-duplicate.swiper-slide-duplicate-prev{
   position: relative !important;
@@ -799,7 +821,7 @@ display: block;
       /* margin-left: 4px;
       margin-right: 4px; */
     }
-    
+
   .block-game-play__slideshow .boxed{
     width: 328px;
   }
@@ -826,7 +848,7 @@ display: block;
     border-radius: 3%;
   }
   .swiper-3d .swiper-slide-shadow-left, .swiper-3d .swiper-slide-shadow-right{
-    left: 1% !important; 
+    left: 1% !important;
     top: 2% !important;
   }
   .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
@@ -842,7 +864,7 @@ display: block;
     position: absolute;
     top: 46%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
   }main{
     background-image: url(img/svg/main-8.png);
   }
